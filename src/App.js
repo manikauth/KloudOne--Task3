@@ -4,8 +4,6 @@ import Products from "./Products";
 function App() {
   return (
     <div>
-      
-
       <Header />
 
       <Products />
