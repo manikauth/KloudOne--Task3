@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Default",
+      "ademail": "muthu@Kloudone.com",
+      "URL": "deafault.kloudone.authnull.com",
+      "auth": " ",
+      "status": "Active",
+      "createdat": " 05-05-2024 11:30 PM",
+      "modifiedat": "05-05-2024 11:30 PM",
+      "action": ""
+    },
+    {
+      "id": 2,
+      "name": "testdev",
+      "ademail": "hemalatha10198@Kloudone.com",
+      "URL": "testdev.kloudone.authnull.com",
+      "auth": " Basic Password Method ",
+      "status": "Active",
+      "createdat": " 05-05-2024 11:30 PM",
+      "modifiedat": "05-05-2024 11:30 PM",
+      "action": " "
+    },
+    {
+      "id": 3,
+      "name": "tenant6",
+      "ademail": "ahrar@Kloudone.com",
+      "URL": "tenant6.kloudone.authnull.com",
+      "auth": " Basic Password Method ",
+      "status": "Active",
+      "createdat": " 05-05-2024 11:30 PM",
+      "modifiedat": "05-05-2024 11:30 PM",
+      "action": " "
+    },
+    {
+      "id": 4,
+      "name": "abc",
+      "ademail": "hema@authnull.io",
+      "URL": "abc.kloudone.authnull.com",
+      "auth": " Basic Password Method ",
+      "status": "Active",
+      "createdat": " 05-05-2024 11:30 PM",
+      "modifiedat": "05-05-2024 11:30 PM",
+      "action": " "
+    },
+    {
+      "id": 5,
+      "name": "sbank",
+      "ademail": "asif@authnull.com",
+      "URL": "sbank.kloudone.authnull.com",
+      "auth": " Basic Password Method ",
+      "status": "Active",
+      "createdat": " 05-05-2024 11:30 PM",
+      "modifiedat": "05-05-2024 11:30 PM",
+      "action": " "
+    }
+  ]
+}
