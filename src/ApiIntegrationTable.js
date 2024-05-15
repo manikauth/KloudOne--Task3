@@ -7,7 +7,6 @@ const ApiIntegrationTable = () => {
   const [dataSource, setDataSource] = useState([]);
 
   useEffect(() => {
-    // Function to fetch data from API
     const fetchData = async () => {
       try {
         const response = await axios.post(
@@ -20,7 +19,7 @@ const ApiIntegrationTable = () => {
         );
 
         const data = response.data;
-        setDataSource([data.data]); // Assuming response is an object, convert it to an array if response is an array
+        setDataSource([data.data]); 
         setLoading(false);
       } catch (error) {
         console.error("Error fetching data:", error);
@@ -64,7 +63,7 @@ const ApiIntegrationTable = () => {
       title: "URL",
       dataIndex: "url",
       key: "url",
-      render: (text) => <a>{text}</a>,
+      render: (url) => <a href={url}>{url}</a>,
     },
     {
       title: "Authentication Method",
@@ -73,7 +72,12 @@ const ApiIntegrationTable = () => {
     },
   ];
 
-  return <Table dataSource={dataSource} columns={columns} loading={loading} />;
+  return (
+    <div>
+      
+      <Table dataSource={dataSource} columns={columns} loading={loading} />
+    </div>
+  );
 };
 
 export default ApiIntegrationTable;
