@@ -10,10 +10,9 @@ body {
   font-weight: 400;
 
 }
-h1{
-    margin-left: 20px;
 
-}
+
+
 
 .tenant-btn{
   float: right;
@@ -28,6 +27,15 @@ h1{
   width: 300px;
   height: 35px;
   display: flex;
-  margin-top: 50px;
+  margin-top: -18px;
 
+
+}
+
+h3{
+  margin-left: 32px;
+  margin-top: 60px;
+  font-weight: 400;
+
+  
 }
