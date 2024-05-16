@@ -19,6 +19,7 @@ const ApiIntegrationTable = () => {
         );
 
         const data = response.data;
+        console.log(data);
         setDataSource([data.data]); 
         setLoading(false);
       } catch (error) {
@@ -31,11 +32,7 @@ const ApiIntegrationTable = () => {
   }, []);
 
   const columns = [
-    {
-      title: "Organization Id",
-      dataIndex: "orgId",
-      key: "orgId",
-    },
+ 
     {
       title: "Organization Name",
       dataIndex: "organizationName",
