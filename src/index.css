@@ -1,33 +1,21 @@
 
 
-table {
-  margin-left: 20px;
-  margin-top: 100px;
-}
-
 body {
   font-family:"Reddit Sans", sans-serif ;
   font-weight: 400;
 
 }
+
 h1{
-    margin-left: 20px;
 
-}
-
-.tenant-btn{
-  float: right;
-  margin-right: 30px;
-  margin-top: -50px;
-}
-
-
-.search-btn{
-
-  margin-left: 30px;
-  width: 300px;
-  height: 35px;
-  display: flex;
+  text-align: center;
   margin-top: 50px;
-
 }
+
+
+
+
+
+
+
+

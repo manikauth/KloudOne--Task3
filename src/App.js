@@ -1,12 +1,11 @@
 import "./App.css";
 import Header from "./Header";
-import Products from "./Products";
+import ApiForm from "./ApiForm";
 function App() {
   return (
     <div>
       <Header />
-
-      <Products />
+      <ApiForm />
     </div>
   );
 }
